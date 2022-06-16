@@ -1,0 +1,23 @@
+<%@ taglib uri="/WEB-INF/lib/reports_tld.jar" prefix="rw" %>
+<%@ page language="java" import="java.io.*" errorPage="/rwerror.jsp" session="false" %>
+<rw:report id="report">
+<rw:objects id="objects">
+<?xml version="1.0" encoding="WINDOWS-1252" ?>
+<report name="grn_pro" DTDVersion="9.0.2.0.10">
+  <xmlSettings xmlTag="GRN_PRO" xmlPrologType="text">
+  <![CDATA[<?xml version="1.0" encoding="&Encoding"?>]]>
+  </xmlSettings>
+  <reportHtmlEscapes>
+    <beforePageHtmlEscape>
+    <![CDATA[#NULL#]]>
+    </beforePageHtmlEscape>
+  </reportHtmlEscapes>
+  <reportPrivate versionFlags2="0" templateName="rwbeige"/>
+  <reportWebSettings>
+  <![CDATA[#NULL#]]>
+  </reportWebSettings>
+</report>
+</rw:objects>
+
+ROS.60050
+</rw:report>
